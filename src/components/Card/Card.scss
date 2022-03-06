@@ -1,0 +1,40 @@
+.card {
+    border-radius: 10px;
+    box-shadow: -1px 1px 6px 0 gainsboro;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+
+    &:hover{
+        background: rgba(220, 220, 220, 0.24);
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+    
+    .type-section{
+        background-color: #00004d54;
+        color: white;
+        border-right: 7px solid #00004d54;
+        padding: 5px 20px;
+        margin-right: -12px;
+        font-weight: bold;
+    }
+    
+    p{
+        margin:5px;
+        margin-left: 0;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .left-data-title, .right-data-title{
+        color: #00004d;
+        font-weight: bold;
+    }
+
+    .right-data-column, .left-data-column {
+        text-align: left;
+    }
+}
