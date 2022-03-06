@@ -7,33 +7,25 @@ const { Option } = Select;
 
 const residences = [
   {
-    value: "Family",
-    label: "Family",
+    value: "Academic progress",
+    label: "Academic progress",
     children: [
         {
-          value: 'Father',
-          label: 'Father',
+          value: 'Fail',
+          label: 'Fail',
         },
         {
-            value: 'mother',
-            label: 'mother',
+          value: 'Good',
+          label: 'Good',
+        },
+        {
+            value: 'Excellent',
+            label: 'Excellent',
           },
+       
       ],
   },
-  {
-    value: "Friend",
-    label: "Friend",
-    children: [
-        {
-          value: 'Colleague',
-          label: 'Colleague',
-        },
-        {
-            value: 'CloseFriend',
-            label: 'CloseFriend',
-          },
-      ],
-  }
+ 
 ];
 
 class ContactForm extends React.Component {
@@ -149,7 +141,7 @@ class ContactForm extends React.Component {
             config
           )(<DatePicker />)}
         </Form.Item>
-        <Form.Item label="Category">
+        <Form.Item label="Academic progress">
           {getFieldDecorator('category', {
             initialValue: this.props.currentSelectedContact ?  this.props.currentSelectedContact.category :  ['Family', 'Father'],
             rules: [

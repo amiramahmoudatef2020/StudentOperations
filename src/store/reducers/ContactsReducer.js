@@ -5,33 +5,6 @@ const initialState = {
     currentLoaded: [],
     allContactsLength: 0,
     allContacts: [
-        // {
-        //     id: "uiddsa1",
-        //     firstName: "dadsadsa",
-        //     lastName: "dsadasdsa",
-        //     category: ["Family", "Father"],
-        //     phone: " +86  464656",
-        //     birthDate: "2019-12-23",
-        //     isSelected: false
-        // },
-        // {
-        //     id: "uiddsdsaa1",
-        //     firstName: "dadsadsa",
-        //     lastName: "dsadasdsa",
-        //     category: ["Family", "Father"],
-        //     phone: " +86  464656",
-        //     birthDate: "2019-12-23",
-        //     isSelected: false
-        // },
-        // {
-        //     id: "uiddsdsadsaa1",
-        //     firstName: "dadsadsa",
-        //     lastName: "dsadasdsa",
-        //     category: ["Family", "Father"],
-        //     phone: " +86  464656",
-        //     birthDate: "2019-12-23",
-        //     isSelected: false
-        // },
     ]
 }
 

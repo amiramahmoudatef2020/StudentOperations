@@ -5,6 +5,7 @@ import './Card.scss';
 
     render() {
         const contactData = this.props.contactData;
+        console.log("contactData",contactData)
         return (
 
             <div className="card col-12 my-2" onClick={this.props.onClickHandler}>

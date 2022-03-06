@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import ContactsList from './views/ContactsList/ContactsList';
+import StudentList from './views/StudentsList/StudentsList';
 import './App.scss';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App container-fluid">
         <div className="row">
             <div className="col-12"> 
-              <ContactsList></ContactsList>
+              <StudentList></StudentList>
             </div>
         </div>
       </div>
